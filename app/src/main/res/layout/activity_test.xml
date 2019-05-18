@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+     <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="152dp"
+        android:src="@drawable/background" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="400px"
+        android:paddingTop="80px">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/one" />
+
+        <EditText
+            android:id="@+id/ID"
+            android:layout_width="500px"
+            android:layout_height="60px"
+            android:layout_gravity="center"
+            android:hint="请输入账号"
+            android:textSize="30px"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="400px"
+        android:paddingTop="30dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/two" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="500px"
+            android:layout_height="60px"
+            android:layout_gravity="center"
+            android:hint="请输入密码"
+            android:inputType="textPassword"
+            android:textSize="30px"
+
+            />
+
+        <ImageButton
+            android:id="@+id/check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/three"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="350px"
+        android:paddingTop="60px">
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="250px"
+            android:layout_height="wrap_content"
+            android:background="#ff336699"
+            android:text="登录"
+            android:textColor="#ffffff"
+            android:textSize="30px" />
+
+        <Button
+            android:id="@+id/sign"
+            android:layout_width="250px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200px"
+            android:background="#ff336699"
+            android:text="注册"
+            android:textColor="#ffffff"
+            android:textSize="30px" />
+
+        <Button
+            android:id="@+id/login_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:text="忘记密码"
+            android:textColor="#ff336699"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
